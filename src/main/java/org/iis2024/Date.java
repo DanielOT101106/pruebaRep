@@ -1,5 +1,6 @@
 //comentario
 //Hola Pepe
+
 package org.iis2024;
 
 import java.text.ParseException;
@@ -18,9 +19,9 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
-  private final int day;
-  private final int month;
-  private final int year;
+  private final int tag;
+  private final int monat;
+  private final int jahr;
 
   /**
    * Retrieves the day component of this date.
